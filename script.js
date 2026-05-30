@@ -16,6 +16,18 @@ const app = initializeApp(firebaseConfig);
 
 const songs = [
   {
+    title: "Berhasil",
+    artist: "Perunggu",
+    src: "assets/music/Perunggu - Berhasil (Official Lyric Video).mp3",
+    cover: "assets/images/perunggu berhasil.png"
+  },
+  {
+    title: "Love Ephipany",
+    artist: "Reality Club",
+    src: "assets/music/Reality Club - Love Epiphany (Official Lyric Video).mp3",
+    cover: "assets/images/love ephi.jpg"
+  },
+  {
     title: "Ini Abadi",
     artist: "Perunggu",
     src: "assets/music/Perunggu - Ini Abadi (Video Lirik).mp3",
