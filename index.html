@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Selamat Bersama Selama 1 Tahun</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght=300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-logo"></div>
+    <div class="nav-music-icon"></div>
+  </nav>
+
+  <section class="hero">
+    <img src="assets/images/nustroo.png" class="hero-bg" alt="Hero Background">
+    <div class="overlay"></div>
+    
+    <div class="hero-container">
+      <div class="hero-text-side entry-fade-in">
+        <h1>Happy 1st<br>Meet Anniversary</h1>
+        <p class="hero-desc">
+          It's been a year since our paths crossed, and im so glad that we re still together.
+          thankyou for making me feel loved rori dan juga kamu harus tau kalo aku sayang kamu banyaakkk banget hehehe.
+        </p>
+         <p class="hero-desc">Hope u'll like it and selamat melihat lihat </p>
+        <div class="scroll-arrow">↓</div>
+      </div>
+
+      <div class="hero-player-widget entry-scale-up">
+        <img src="assets/music/ini abadi.jpg" class="widget-cover" id="hero-widget-cover">
+        <div class="widget-info">
+          <h4 id="widget-title">Ini Abadi</h4>
+          <p id="widget-artist">Perunggu</p>
+          <div class="widget-progress">
+            <span class="widget-time" id="widget-current-time">0:00</span>
+            <div class="widget-bar"><div class="widget-bar-fill"></div></div>
+            <span class="widget-time" id="widget-duration">0:00</span>
+          </div>
+          <div class="widget-controls">
+            <button id="widget-prev">⏮</button>
+            <button class="play-trigger">▶</button>
+            <button id="widget-next">⏭</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="info-grid-section animate-on-scroll">
+    <div class="card countdown-card">
+      <div class="card-header-heart">Together for </div>
+      <div class="countdown-container">
+        <div class="countdown-item"><span id="days">00</span><p>Days</p></div>
+        <div class="countdown-item"><span id="hours">00</span><p>Hours</p></div>
+        <div class="countdown-item"><span id="minutes">00</span><p>Minutes</p></div>
+        <div class="countdown-item"><span id="seconds">00</span><p>Seconds</p></div>
+      </div>
+      <p class="countdown-footer">Every second with you is my favorite.</p>
+    </div>
+
+    <div class="card greeting-card">
+      <h3>To Angela</h3>
+      <p>
+        Thankyou for being the most wonderful part of my life Angel.
+        Thankyou for being orang yang paling baik, sabar sama aku dan juga sayang aku hehehe. 
+        Semoga kita bisa bersama sama terus sampai selama lamanya yaa rori. 
+      </p>
+      <div class="rose-art">:P</div>
+    </div>
+  </section>
+
+  <section id="gallery" class="gallery-section animate-on-scroll">
+    <div class="gallery-header">
+      <h2>Gallery</h2>
+      <a href="#" class="view-all" id="view-all-btn">View all photos →</a>
+    </div>
+    
+    <div class="gallery-row">
+      <img src="assets/images/mirror kcoak.jpg">
+      <img src="assets/images/7e9fe402-9403-4fbb-a926-9f4067afee4c.JPG">
+      <img src="assets/images/67.jpg">
+      <img src="assets/images/bukber date.jpg">
+      <img src="assets/images/mirror (2).jpeg">
+      <img src="assets/images/mirror tizi.jpeg">
+    </div>
+
+    <div class="gallery-expanded-grid" id="expanded-gallery">
+      <img src="assets/images/RORIPELUK.jpeg">
+      <img src="assets/images/Fotobut.jpg">
+      <img src="assets/images/gendong (1).jpg">
+      <img src="assets/images/rori eeyore.jpg">
+      <img src="assets/images/rori melet nustro.jpg">
+      <img src="assets/images/fotobut tunjuk pipi.jpg">
+    </div>
+  </section>
+
+  <section id="playlist" class="bottom-section animate-on-scroll">
+    <div class="bottom-grid">
+      
+      <div class="card player-card">
+        <p class="card-label">Songs that remind me of you</p>
+        <div class="player-main-content">
+          <div class="vinyl-record">
+            <img src="assets/music/ini abadi.jpg" id="cover" alt="Vinyl Cover">
+          </div>
+          <div class="player-details">
+            <h4 id="song-title">Ini Abadi</h4>
+            <p id="song-artist">Perunggu</p>
+            <div class="progress-area">
+              <div class="progress-bar"><span></span></div>
+              <div class="song-timer">
+                <span class="current">0:00</span>
+                <span class="duration">0:00</span>
+              </div>
+            </div>
+            <div class="main-controls">
+              <button id="prev">⏮</button>
+              <button id="play" class="play-trigger">▶</button>
+              <button id="next">⏭</button>
+            </div>
+          </div>
+        </div>
+        <audio id="audio"></audio>
+      </div>
+
+      <div class="card note-card">
+        <p class="card-label">Little Note</p>
+        <div class="note-content">
+          <p>Thankyou for existing in this world rori, you presence means a lot to me.</p>
+          <p>Aku berharap kita bakal senang senang terus dan juga bakal saling menyayangi terus sampai selamanya amin. </p>
+          <p class="signature">I love you Angel, i always do. </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="main-footer">
+    Here's to us, and everything ahead. I love you so much Angela Victoria. ♡
+  </footer>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
